@@ -1,0 +1,17 @@
+.button {
+	height: 1.5rem;
+	width: 3rem;
+	margin-left: 0.5rem;
+	background-color: #071013;
+	color: #dfe0e2;
+	border: none;
+	border-radius: 0.5rem;
+	border: none;
+}
+
+.button:hover,
+.button:active {
+	background: #071013;
+	border-color: #071013;
+	cursor: pointer;
+}

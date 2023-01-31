@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+}
+h1 {
+	margin: 0;
+	color: #dfe0e2;
+}
+form {
+	margin: 1rem 0;
+}
+label {
+	font-weight: bold;
+	color: #dfe0e2;
+	margin: 0 0.5rem;
+}
+input {
+	padding: 0.25rem;
+	width: 55%;
+	border-radius: 0.5rem;
+	border: none;
+}

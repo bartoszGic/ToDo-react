@@ -3,7 +3,7 @@ import styles from '../CSS/Title.module.css'
 import Button from './Button'
 import Error from './Error'
 
-const Title = () => {
+const Title = (props) => {
 
     const [task, setTask] = useState('')
     const [err, setErr] = useState()
@@ -14,8 +14,7 @@ const Title = () => {
             setErr('Podaj treść zadania!')
             return
         }
-        console.log(err);
-        console.log(task);
+        props.onAddTodoHandl(task)
         setTask('')
     }
 
